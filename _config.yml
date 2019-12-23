@@ -7,9 +7,9 @@ permalink:        pretty
 #relative_permalinks: true
 
 # Setup
-title:            Hyde
+title:            CSC3220
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'Applications Programming Winter 2020 @ Seattle Pacific University.'
 url:              "https://twpspu.github.io"
 baseurl:          "/csc3220w2020/"
 
