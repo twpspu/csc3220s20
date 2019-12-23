@@ -3,6 +3,22 @@ layout: default
 title: Home
 ---
 
+
+<div class="pages">
+  {% assign pages_list = site.pages %}
+  {% for node in pages_list %}
+  <div class="page">
+    <h1 class="post-title">
+      <a href="{{ node.url }}">
+        {{ node.title }}
+      </a>
+    </h1>
+
+    {{ node.content }}
+  </div>
+  {% endfor %}
+</div>
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
