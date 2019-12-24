@@ -11,7 +11,7 @@ title:            CSC3220
 tagline:          'Syllabus'
 description:      'Applications Programming Winter 2020 Syllabus @ Seattle Pacific University.'
 url:              "https://twpspu.github.io"
-baseurl:          "/csc3220w2020"
+baseurl:          "/csc3220w20"
 
 author:
   name:           'Taiwoo Park'
