@@ -5,20 +5,20 @@ title: Home
 
 
 <div class="pages">
-  {% assign pages_list = site.pages %}
+  {% assign pages_list = site.pages | where: "show", "show"  | sort:"order" %}
   {% for node in pages_list %}
   <div class="page">
-    <h1 class="post-title">
+    <!-- <h1 class="post-title">
       <a href="{{ node.url }}">
         {{ node.title }}
       </a>
-    </h1>
+    </h1> -->
 
-    {{ node.content }}
+    {{ node.content | markdownify }}
   </div>
   {% endfor %}
 </div>
-
+<!-- 
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -34,7 +34,6 @@ title: Home
   </div>
   {% endfor %}
 </div>
-
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
@@ -50,4 +49,4 @@ title: Home
   {% else %}
     <span class="pagination-item newer">Newer</span>
   {% endif %}
-</div>
+</div> -->

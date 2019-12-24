@@ -1,5 +1,5 @@
 # Dependencies
-# markdown:         redcarpet
+markdown:         kramdown
 # highlighter:      pygments
 
 # Permalinks
@@ -8,10 +8,10 @@ permalink:        pretty
 
 # Setup
 title:            CSC3220
-tagline:          'A Jekyll theme'
-description:      'Applications Programming Winter 2020 @ Seattle Pacific University.'
+tagline:          'Syllabus'
+description:      'Applications Programming Winter 2020 Syllabus @ Seattle Pacific University.'
 url:              "https://twpspu.github.io"
-baseurl:          "/csc3220w2020/"
+baseurl:          "/csc3220w2020"
 
 author:
   name:           'Taiwoo Park'
