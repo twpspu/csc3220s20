@@ -4,6 +4,8 @@ CSC3220 Application Programming Winter 2020 Quarter syllabus.
 
 Based on [Jekyll](http://jekyllrb.com) with [Hyde](https://github.com/poole/hyde) theme.
 
+Local: `bundle exec jekyll serve`
+
 ## Author
 
 **Taiwoo Park**
