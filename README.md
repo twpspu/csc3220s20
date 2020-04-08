@@ -1,6 +1,6 @@
 # Syllabus
 
-CSC3220 Application Programming Winter 2020 Quarter syllabus.
+CSC3220 Application Programming Spring 2020 Quarter syllabus.
 
 Based on [Jekyll](http://jekyllrb.com) with [Hyde](https://github.com/poole/hyde) theme.
 
