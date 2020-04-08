@@ -9,15 +9,15 @@ permalink:        pretty
 # Setup
 title:            CSC3220
 tagline:          'Syllabus'
-description:      'Applications Programming Winter 2020 Syllabus @ Seattle Pacific University.'
+description:      'Applications Programming Spring 2020 Syllabus @ Seattle Pacific University.'
 url:              'https://twpspu.github.io'
 baseurl:          '/csc3220w20'
 
 coursecode:       'CSC 3220'
 coursetitle:      'Applications Programming'
-term:             'Winter 2020'
+term:             'Spring 2020'
 instructor:       'Dr. Taiwoo Park'
-office:           'OMH 243'
+office:           'OMH 208'
 email:            'twp@spu.edu'
 phone:            '206-286-7258'
 
